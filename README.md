@@ -1,10 +1,10 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <img src="./assets/logo.webp" alt="logo" width="200"  height="auto" />
+  <img src="./assets/logo.png" alt="logo" width="200"  height="auto" />
   <br/>
 
-  <h3><b>Earthly</b></h3>
+  <h3><b>Mapfrica</b></h3>
 
 </div>
 
@@ -29,9 +29,9 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 Earthly <a name="about-project"></a>
+# 📖 Mapfrica <a name="about-project"></a>
 
-**Earthly** is a React & Redux built website that uses the Rest Countries API to display countries and related information.
+**Mapfrica** is a React & Redux built website that uses the Rest Countries API to display african countries and related information.
 
 ## 🛠 Built With <a name="built-with"></a>
 - React
@@ -127,6 +127,8 @@ If you like this project, please give it a star ⭐
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 Special thanks to all the assistance received!
+
+The [Creative Commons license of the design](https://creativecommons.org/licenses/by-nc/4.0/) requires that credit be given to [Nelson Sakwa](https://www.behance.net/sakwadesignstudio), the author and owner of the original design idea.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
