@@ -1,6 +1,6 @@
-import React, { useState } from "react";
-import { useSelector } from "react-redux";
-import Country from "../Components/Country";
+import React, { useState } from 'react';
+import { useSelector } from 'react-redux';
+import Country from '../Components/Country';
 
 const Home = () => {
   const { countries } = useSelector((state) => state.countries);
@@ -10,36 +10,36 @@ const Home = () => {
 
   const regionSwitch = (e) => {
     switch (e.target.value) {
-      case "all":
+      case 'all':
         countryDB = Array.from(countries);
         setCoDB(countryDB);
         break;
-      case "Northern":
+      case 'Northern':
         countryDB = countries.filter(
-          (item) => item.region === "Northern Africa"
+          (item) => item.region === 'Northern Africa',
         );
         setCoDB(countryDB);
         break;
-      case "Eastern":
+      case 'Eastern':
         countryDB = countries.filter(
-          (item) => item.region === "Eastern Africa"
+          (item) => item.region === 'Eastern Africa',
         );
         setCoDB(countryDB);
         break;
-      case "Southern":
+      case 'Southern':
         countryDB = countries.filter(
-          (item) => item.region === "Southern Africa"
+          (item) => item.region === 'Southern Africa',
         );
         setCoDB(countryDB);
         break;
-      case "Western":
+      case 'Western':
         countryDB = countries.filter(
-          (item) => item.region === "Western Africa"
+          (item) => item.region === 'Western Africa',
         );
         setCoDB(countryDB);
         break;
-      case "Middle":
-        countryDB = countries.filter((item) => item.region === "Middle Africa");
+      case 'Middle':
+        countryDB = countries.filter((item) => item.region === 'Middle Africa');
         setCoDB(countryDB);
         break;
 
@@ -49,21 +49,21 @@ const Home = () => {
   };
 
   return (
-    <div className='home'>
-      <label for='regionSelect'>Select region:</label>
+    <div className="home">
+      <p className="label">Select region:</p>
       <select
-        name='regionSelect'
-        id='regionSelect'
-        defaultValue={"all"}
-        className='regionSelect'
+        name="regionSelect"
+        id="regionSelect"
+        defaultValue="all"
+        className="regionSelect"
         onChange={(e) => regionSwitch(e)}
       >
-        <option value='all'>All (59)</option>
-        <option value='Northern'>Northern (7)</option>
-        <option value='Eastern'>Eastern (19)</option>
-        <option value='Southern'>Southern (6)</option>
-        <option value='Western'>Western (17)</option>
-        <option value='Middle'>Middle (10)</option>
+        <option value="all">All (59)</option>
+        <option value="Northern">Northern (7)</option>
+        <option value="Eastern">Eastern (19)</option>
+        <option value="Southern">Southern (6)</option>
+        <option value="Western">Western (17)</option>
+        <option value="Middle">Middle (10)</option>
       </select>
 
       {coDB.map((item) => (

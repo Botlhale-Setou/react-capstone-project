@@ -5,8 +5,8 @@ import '@testing-library/jest-dom';
 import Navbar from '../Components/Navbar';
 
 describe('Test Navbar', () => {
-	test('Navbar render', () => {
-		const tree = Renderer
+  test('Navbar render', () => {
+    const tree = Renderer
       .create(
         <Router>
           <Navbar />
@@ -14,5 +14,5 @@ describe('Test Navbar', () => {
       )
       .toJSON();
     expect(tree).toMatchSnapshot();
-	});
+  });
 });

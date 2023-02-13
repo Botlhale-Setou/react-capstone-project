@@ -1,5 +1,5 @@
-const LINK = "https://restcountries.com/v3.1/region/africa";
-const INIT_COUNTRIES = "initializeCountries";
+const LINK = 'https://restcountries.com/v3.1/region/africa';
+const INIT_COUNTRIES = 'initializeCountries';
 
 const initialState = {
   countries: [],
