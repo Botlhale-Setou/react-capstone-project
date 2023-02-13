@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Navbar Navbar render 1`] = `
+<div
+  className="navbar"
+>
+  <img
+    alt="Mapfrica logo"
+    className="logo"
+    src="logo.png"
+  />
+  <h1
+    className="siteTitle"
+  >
+    MAPFRICA
+  </h1>
+</div>
+`;

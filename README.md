@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <img src="./assets/logo.png" alt="logo" width="200"  height="auto" />
+  <img src="./src/assets/logo.png" alt="logo" width="200"  height="auto" />
   <br/>
 
   <h3><b>Mapfrica</b></h3>
@@ -48,7 +48,9 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
+
 - [Live Demo Link](https://mapfrica.onrender.com)
+
 - [Video Preview Link](https://www.loom.com/share/e4fa5f91f11c4e4b944f8829194d2fa3)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

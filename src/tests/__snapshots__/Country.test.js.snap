@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Country test Country render 1`] = `
+<a
+  className="countryCard"
+  href="/details/undefined"
+  onClick={[Function]}
+>
+  <h2
+    className="countryName"
+  >
+    <span>
+       km²
+    </span>
+  </h2>
+  <img
+    alt="undefined flag"
+    className="countryFlag"
+  />
+</a>
+`;
