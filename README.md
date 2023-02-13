@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <img src="./assets/logo.png" alt="logo" width="200"  height="auto" />
+  <img src="./src/assets/logo.png" alt="logo" width="200"  height="auto" />
   <br/>
 
   <h3><b>Mapfrica</b></h3>

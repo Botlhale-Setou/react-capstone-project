@@ -12,14 +12,14 @@ function App() {
   useEffect(() => {
     dispatch(fetchData());
   }, [dispatch]);
-  
+
 
   return (
     <div className='App'>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/details" element={<Details />} />
+        <Route path="/details/:countryName" element={<Details />} />
       </Routes>
     </div>
   );

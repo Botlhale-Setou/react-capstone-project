@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home test Home render 1`] = `
+<div
+  className="home"
+>
+  <label
+    for="regionSelect"
+  >
+    Select region:
+  </label>
+  <select
+    className="regionSelect"
+    defaultValue="all"
+    id="regionSelect"
+    name="regionSelect"
+    onChange={[Function]}
+  >
+    <option
+      value="all"
+    >
+      All (59)
+    </option>
+    <option
+      value="Northern"
+    >
+      Northern (7)
+    </option>
+    <option
+      value="Eastern"
+    >
+      Eastern (19)
+    </option>
+    <option
+      value="Southern"
+    >
+      Southern (6)
+    </option>
+    <option
+      value="Western"
+    >
+      Western (17)
+    </option>
+    <option
+      value="Middle"
+    >
+      Middle (10)
+    </option>
+  </select>
+</div>
+`;

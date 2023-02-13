@@ -1,5 +1,113 @@
+:root {
+  --main: #88da8e;
+  --secondary: #6a6b0b;
+  --tertiary: #f3bebe;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 0;
+  background-color: var(--main);
+  border-bottom: 3px solid var(--secondary);
+}
+
+.logo {
+  height: 50px;
+}
+
+.home {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(48, 48, 48);
+}
+
+.countryCard {
+  width: 50vw;
+  height: 40vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.countryFlag {
+  filter: brightness(50%);
+  width: 50vw;
+  height: 40vw;
+  object-fit: contain;
+}
+
+.countryName {
+  color: var(--tertiary);
+  z-index: 10;
+  position: absolute;
+  background-color: #3c4901ef;
+  padding: 10px;
+  border-radius: 10px;
+  border-bottom: 3px solid var(--tertiary);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.countryName > span {
+  font-size: 14px;
+  color: var(--main);
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+  height: 100vh;
+  background-color: var(--tertiary);
+  border-bottom: 5px solid var(--secondary);
+}
+
+.details > img {
+  border-radius: 10px;
+  border-bottom: 5px solid var(--secondary);
+}
+
+.details > h1 {
+  background-color: var(--main);
+  padding: 0 50px;
+  border-bottom: 3px solid var(--secondary);
+  margin-bottom: 20px;
+}
+
+.details > p {
+  font-weight: 600;
+  margin-bottom: 5px;
+  background-color: var(--main);
+}
+
+.back {
+  position: absolute;
+  top: 80px;
+  right: 30px;
+  font-weight: 600;
+}
+
+.regionSelect {
+  width: 100vw;
+  height: 40px;
+}
+
+.home > label {
+  color: var(--tertiary);
+  background-color: #464706;
+  width: 100vw;
+  padding: 5px;
 }
